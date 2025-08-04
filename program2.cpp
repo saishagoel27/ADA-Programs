@@ -4,7 +4,6 @@
 #include <chrono>
 using namespace std;
 using namespace std::chrono;
-
 void quickSort(int arr[], int low, int high)
 {
     if (low < high)
@@ -30,7 +29,6 @@ void quickSort(int arr[], int low, int high)
         quickSort(arr, pi + 1, high);
     }
 }
-
 int main()
 {
     int counter = 5;
@@ -39,10 +37,8 @@ int main()
         int size;
         cout << "Enter size: ";
         cin >> size;
-
         srand(time(0));
         int arr[size];
-
         for (int i = 0; i < size; i++)
         {
             arr[i] = rand() % 1000 + 1;
@@ -57,8 +53,8 @@ int main()
         }
         cout << endl;
 
-        auto duration = duration_cast<nanoseconds>(stop - start);
-        cout << "Time in nanoseconds: " << duration.count() << endl;
+        auto duration = duration_cast<microseconds>(stop - start);
+        cout << "Time in microseconds: " << duration.count() << endl;
         counter--;
     }
     return 0;
