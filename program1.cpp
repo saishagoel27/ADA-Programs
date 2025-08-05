@@ -50,7 +50,7 @@ void quickSort(int arr[], int low, int high)
 }
 int main()
 {
-    int counter = 5;
+    int counter = 4;
     while (counter > 0)
     {
         int size;
