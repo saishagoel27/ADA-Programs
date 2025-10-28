@@ -7,7 +7,6 @@ This repository contains implementations of fundamental algorithms in C++ for an
 - [Greedy Algorithms (5-6)](#greedy-algorithms)
 - [Dynamic Programming (7-8)](#dynamic-programming)
 - [Advanced Algorithms (9-10)](#advanced-algorithms)
-- [Compilation Guide](#compilation-guide)
 - [Key Concepts Explained](#key-concepts-explained)
 
 ---
