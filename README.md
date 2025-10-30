@@ -123,7 +123,7 @@ g++ program3a.cpp -o program3a
 ---
 
 ### Program 3b: Merge Sort Performance Analysis
-**File:** [program3b.cpp](program3b.cpp)
+**File:** [program3b.cpp](program3 b).cpp)
 
 **What it does:**  
 Sorts a list by dividing it into smaller pieces, sorting those pieces, then merging them back together in order.
