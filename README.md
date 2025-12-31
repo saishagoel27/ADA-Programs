@@ -528,7 +528,7 @@ i 10 15 20
 
 **Usage:**
 ```bash
-g++ "problem10 a).cpp" -o problem10a
+g++ "problem10 a).cpp" -o problem10a)
 ./problem10a
 ```
 
