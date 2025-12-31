@@ -491,7 +491,7 @@ g++ problem9.cpp -o problem9
 ---
 
 ### Problem 10a: Traveling Salesman Problem (TSP) - Branch and Bound
-**File:** [problem10 a).cpp](problem10 a).cpp)
+**File:** [problem10 a).cpp]
 
 **What it does:**  
 Finds the shortest route that visits all cities exactly once and returns to the starting city.
@@ -535,7 +535,7 @@ g++ "problem10 a).cpp" -o problem10a)
 ---
 
 ### Problem 10b: 0/1 Knapsack - Branch and Bound
-**File:** [problem 10 b).cpp](problem 10 b).cpp)
+**File:** [problem 10 b).cpp]
 
 **What it does:**  
 Solves 0/1 knapsack more efficiently than backtracking by pruning unpromising branches early.
